@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+.mainContainer {
+  min-width: 380px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ccdaf0;
+}
+
+.imgQR {
+  border-radius: 1rem;
+}
+
+.cardPrincipal {
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.textDiv {
+  font-size: large;
+
+  text-align: center;
+}
+
+.descrp {
+  color: #737373;
+}
+
+@media (max-width: 450px) {
+  .mainContainer {
+    padding-top: 2rem;
+  }
+  .imgQR {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: -30px;
+  }
+
+  .cardPrincipal {
+    width: 350px;
+    height: 580px;
+  }
+
+  .textDiv {
+    width: 310px;
+    padding-left: 20px;
+  }
+
+  .descrp {
+    width: 290px;
+    padding-left: 8px;
+  }
+}
+@media (min-width: 450px) {
+  .mainContainer {
+    padding-top: 4.1rem;
+  }
+  .imgQR {
+    width: 350px;
+    margin-left: 25px;
+    margin-top: -40px;
+  }
+
+  .cardPrincipal {
+    width: 400px;
+    height: 630px;
+  }
+
+  .textDiv {
+    width: 350px;
+    padding-left: 22px;
+  }
+
+  .descrp {
+    width: 300px;
+    padding-left: 25px;
+  }
+}

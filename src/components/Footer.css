@@ -1,0 +1,6 @@
+.footerContent {
+  background-color: #ccdaf0;
+  min-width: 380px;
+  display: flex;
+  justify-content: center;
+}
